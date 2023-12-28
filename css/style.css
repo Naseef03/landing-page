@@ -141,3 +141,14 @@ header {
     border: 2px solid #F9FAF8;
     color: #E5E7EB;
 }
+
+/* Footer styling */
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 56px;
+    display: flex;
+    justify-content: center;
+    font-size: 24;
+}
