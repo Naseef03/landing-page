@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Header Styling */
@@ -67,4 +67,28 @@ header {
     padding: 8px 32px;
     border-radius: 8px;
     color: #E5E7EB;
+}
+
+/* Information styling */
+
+.info {
+    padding: 56px 450px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-cards {
+    display: flex;
+    gap: 32px;
+}
+
+.info-cards .img {
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
 }
