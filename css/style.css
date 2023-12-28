@@ -111,3 +111,33 @@ header {
     text-align: right;
     font-weight: 900;
 }
+
+/* Call to Action styling */
+.action {
+    background-color: #3882F6;
+    margin: 75px 300px;
+    padding: 48px 130px;
+    color: #E5E7EB;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.action p {
+    margin: 0;
+    padding: 0;
+}
+
+.action button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    color: #E5E7EB;
+}
